@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+	<suite name="GMS Web Regression Test Suite">
+		<test name="Initialization of Driver">
+			<classes>
+				<class name="com.pacom.gmsweb.tests.BaseTestSuite">
+				</class>
+			</classes>
+	</test>
+	
+	<test name="Verify GMS Web Version">
+		<classes>
+			<class name="com.pacom.gmsweb.tests.LoginPageTest">
+				<methods>
+					<include name="verifyGmsVersion"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	<test name="Verify Login Success">
+		<classes>
+			<class name="com.pacom.gmsweb.tests.LoginPageTest">
+				<methods>
+					<include name ="verifyLoginSuccessful"/>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+</suite>

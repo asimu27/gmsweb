@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [GMS Web Regression Test Suite]">
+  <test name="Verify GMS Web Version(failed)">
+    <classes>
+      <class name="com.pacom.gmsweb.tests.LoginPageTest">
+        <methods>
+          <include name="initializeDriver"/>
+          <include name="initializeDriver"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="verifyGmsVersion"/>
+        </methods>
+      </class> <!-- com.pacom.gmsweb.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Verify GMS Web Version(failed) -->
+</suite> <!-- Failed suite [GMS Web Regression Test Suite] -->

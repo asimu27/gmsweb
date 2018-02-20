@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GMS Web Regression Test Suite" duration-ms="6029" started-at="2018-02-01T01:53:12Z" finished-at="2018-02-01T01:53:18Z">
+    <groups>
+    </groups>
+    <test name="Initialization of Driver" duration-ms="4" started-at="2018-02-01T01:53:12Z" finished-at="2018-02-01T01:53:12Z">
+    </test> <!-- Initialization of Driver -->
+    <test name="Verify GMS Web Version" duration-ms="2824" started-at="2018-02-01T01:53:12Z" finished-at="2018-02-01T01:53:15Z">
+      <class name="com.pacom.gmsweb.tests.LoginPageTest">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.pacom.gmsweb.tests.LoginPageTest@475530b9]" name="initializeDriver" is-config="true" duration-ms="2159" started-at="2018-02-01T12:53:12Z" finished-at="2018-02-01T12:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="verifyGmsVersion()[pri:0, instance:com.pacom.gmsweb.tests.LoginPageTest@475530b9]" name="verifyGmsVersion" duration-ms="120" started-at="2018-02-01T12:53:14Z" finished-at="2018-02-01T12:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGmsVersion -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pacom.gmsweb.tests.LoginPageTest@475530b9]" name="tearDown" is-config="true" duration-ms="536" started-at="2018-02-01T12:53:15Z" finished-at="2018-02-01T12:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pacom.gmsweb.tests.LoginPageTest -->
+    </test> <!-- Verify GMS Web Version -->
+    <test name="Verify Login Success" duration-ms="3146" started-at="2018-02-01T01:53:15Z" finished-at="2018-02-01T01:53:18Z">
+      <class name="com.pacom.gmsweb.tests.LoginPageTest">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.pacom.gmsweb.tests.LoginPageTest@28d25987]" name="initializeDriver" is-config="true" duration-ms="1280" started-at="2018-02-01T12:53:15Z" finished-at="2018-02-01T12:53:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="verifyLoginSuccessful()[pri:0, instance:com.pacom.gmsweb.tests.LoginPageTest@28d25987]" name="verifyLoginSuccessful" duration-ms="1304" started-at="2018-02-01T12:53:16Z" finished-at="2018-02-01T12:53:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginSuccessful -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pacom.gmsweb.tests.LoginPageTest@28d25987]" name="tearDown" is-config="true" duration-ms="558" started-at="2018-02-01T12:53:18Z" finished-at="2018-02-01T12:53:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.pacom.gmsweb.tests.LoginPageTest -->
+    </test> <!-- Verify Login Success -->
+  </suite> <!-- GMS Web Regression Test Suite -->
+</testng-results>
